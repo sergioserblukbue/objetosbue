@@ -21,6 +21,8 @@ class Persona:
 
   
 
+  
+
 # Crear una instancia de la clase Persona
 persona = Persona("Juan", 1980)
 
