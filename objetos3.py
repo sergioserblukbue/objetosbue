@@ -4,6 +4,20 @@ class personas:
         self.nombre=nombre
         self.apellido=apellido
         self.dni=dni
+    #creo otro constructor solo con nombre y dni
+    def __init__(self, nombre, dni):
+        self.nombre=nombre
+        self.dni=dni
+        #creo otro constructor solo con nombre
+    def __init__(self, nombre):
+        self.nombre=nombre
+
+
+
+
+
+
+
     def __str__(self):
         return "nombre: " + self.nombre + " apellido: " + self.apellido + " dni: " + self.dni
     
